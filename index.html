@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hubungi Kami di WhatsApp</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f9fafb;
+    }
+    .wrapper {
+      width: 100%;
+      padding: 24px;
+    }
+    .card {
+      max-width: 480px;
+      margin: 0 auto;
+      background: rgba(15, 23, 42, 0.9);
+      border-radius: 18px;
+      padding: 32px 24px 28px;
+      text-align: center;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.4);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+    }
+    .logo {
+      width: 110px;
+      margin: 0 auto 20px;
+      display: block;
+      border-radius: 12px;
+    }
+    .title {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .subtitle {
+      font-size: 15px;
+      line-height: 1.6;
+      color: #cbd5f5;
+      margin-bottom: 26px;
+    }
+    .wa-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 26px;
+      border-radius: 999px;
+      background: #22c55e;
+      color: #022c22;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 12px 30px rgba(34, 197, 94, 0.45);
+      transition: 0.15s ease;
+    }
+    .wa-btn img {
+      width: 22px;
+      height: 22px;
+    }
+    .wa-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(34, 197, 94, 0.6);
+      background: #16a34a;
+    }
+    .wa-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 8px 18px rgba(34, 197, 94, 0.4);
+    }
+    .note {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="card">
+
+      <!-- LOGO (你的路径 123.jpg) -->
+      <img src="123.jpg" alt="Logo" class="logo" />
+
+      <h1 class="title">Perlu Bantuan? Bercakap Dengan Kami</h1>
+
+      <p class="subtitle">
+        Klik butang di bawah untuk berhubung terus melalui WhatsApp.<br />
+        Pasukan kami akan cuba membalas anda secepat yang munasabah.
+      </p>
+
+      <!-- WhatsApp 按钮（带你自己的图标 whatsapp.png） -->
+      <a
+        href="https://wa.me/60105231663?text=Hi,%20saya%20ingin%20tahu%20maklumat%20lanjut."
+        target="_blank"
+        class="wa-btn"
+      >
+        <img src="whatsapp.png" alt="WhatsApp Icon" />
+        Hubungi Kami di WhatsApp
+      </a>
+
+      <div class="note">
+        Dengan menekan butang di atas, anda akan dibawa ke aplikasi WhatsApp
+        untuk memulakan perbualan.
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
